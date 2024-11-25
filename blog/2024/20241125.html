@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python Community Moderation, and ByLaw Change 3</title>
+</head>
+<body>
+
+
+<p class="paragraph-P1"><a id="docs-internal-guid-a0c52e3e-7fff-47c7-638c-64a7851ff7df"/>I have been trying to draft this since August. As the discussion in the Python community has evolved from the ByLaw Change 3, to the suspension of Tim Peters, and now to the role of various branches of the Python organizations and communities, I’ve stalled in this draft trying to keep up. And then the conversation would evolve and the post would atrophy more and more.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">But as this dilemma and controversy hasn’t died down, I’ve felt my feelings on the topic have not been captured when many others talk about it. So I’m left deciding to inject myself into this conversation because I think there are some really important things that need to be said. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">As I’ve constantly collapsed under the weight of trying to cover everything, I’m going to opt for something that misses a lot of the conversation. I apologize, not only did I not have time to write a short blog post, but I also don’t have the energy to write a long one. So this is what we’re left with. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I am functionally an outsider to these topics. I have a little insight based on what’s online, but that’s something everyone has access to. The rest I am making guesses at based on my prior experience moderating online communities. </p>
+
+<p class="paragraph-Text_20_body"><br/></p>
+
+<h2>This has become too much of a wall of text</h2>
+<p class="paragraph-P2">I’m going to put the summary up top, and the analysis below it. I’ve also run out of energy to more elegantly present this, and as the conversation has moved to “how should moderators act” (notably without the input of moderators) I feel waiting much longer is going to be worse than trying to phrase things as elegantly as I’d like. </p>
+<p class="paragraph-Text_20_body"> </p>
+<h3>TLDR: </h3>
+<p class="paragraph-P2">- Bylaw change 3 sparked most of this. In my perspective, a codified methodology to deal with issues that put the PSF and Python at sever legal risk is necessary. Given the age of the language and size of the community, it’s very important to be able to protect our community members and not look the other way when there’s an issue for fear of the only other option being an exceptionally public vote. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">- Tim Peters' behavior was very vocal. There are multiple important parts to this:</p>
+
+<p class="paragraph-P2">-- I believe soft skills were used prior to suspension. Whether or not Tim Peters feels like that is true is kind of why there is escalation in any moderator’s toolbet. That said, soft skills are often unnoticed because they don’t come with a stamp of, “This is a moderator speaking for moderation”. </p>
+
+<p class="paragraph-P2">-- Treating users with prior history differently than users with no history is exceptionally reasonable. And it may be a part of the calculus here. </p>
+
+<p class="paragraph-P2">-- Receiving moderator action is not a judgement of character. Admonishment is not damnation, and sometimes a suspension is literally just to force folks to take a break and let people cool off. </p>
+
+<p class="paragraph-P3">-- Sometimes a topic is too prone to cause people to write attacks, so banning topics for a period is necessary to maintain a cordial workspace. It’s not silencing opinions, but it is enforcing a break so everyone has time to breathe, remember empathy, and reframe why we’re coming to the table to work on python.</p>
+
+<p class="paragraph-Text_20_body"/>
+
+<p class="paragraph-P2">- When it comes to moderation, you, the audience, are not entitled to know everything that took place. Withholding details is important, we must protect anyone who reported an issue. But also, more critically in this discussion, we must protect someone’s ability to make a mistake. It’s ok to be human, make a mistake, and need to be banned for a period to breathe. Keeping Who received moderation a secret is necessary so you don’t force them to publicly tie their identity to one action at one moment in time. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">- You also probably don’t deserve to be told Why an action was made. You won’t be allowed to know everything, so what’s left, when framed as, “we did x because of y” will only be part of the picture and may seem overly weak in terms of justification. Chances are there’s more at work, and too much emphasis on only part of the picture makes that harder to see. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">- Let DPO mods do their job. Banning or muting someone on DPO is not necessarily the same as a code of conduct violation, but is about maintaining a productive space in various environments and at various times, including volatile ones. If there’s evasion via github or mailing lists, the DPO moderators need to be able to extend their actions in those spaces as well. But DPO moderation isn’t the same as Code of Conduct work group actions. And objecting to a moderator’s need to remove comments or threads because it’s not a CoC violation ruins a moderators ability to maintain a productive forum, and means they now have to work much slower during volatile times risking the cohesion of the community. Let them moderate and shut down conversations. They need to breathe too. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">- You’re probably not hearing the whole picture from every party involved, because some folks, like the Steering Council, or CoC Workgroup, may have privileged knowledge they’re not at liberty to share. Trust the number of people who were involved in this decision making process. It was a lot of folks who all agreed to take action. Maybe there are things we’re not allowed to know about that convinced them. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">- This whole process has indeed had an impact on others even before a suspension was made. There’s some good, wildly smarter than me folks I’ve talked with online and in person who, for some reason or another, don’t feel welcome. And this family of behavior was repeatedly used as reasons not to engage. </p>
+
+<p class="paragraph-Text_20_body"><br/></p>
+
+<h1 class="paragraph-P2"> The Full Wall of Text: </h1>
+<p class="paragraph-Text_20_body"> </p>
+<h2>Here's too sweeping of a summary</h2>
+<h3 class="paragraph-P4"> Bylaw Change 3</h3>
+
+<p class="paragraph-P2">First we have to talk about bylaw change 3, as that is the origin. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">The proposal centers on the function for removal of PSF Fellows by a PSF board vote which is initiated in response to Code of Conduct violations. Prior to this, the only explicitly stated way to remove someone was by having a full, community vote, where eligible voting members of the psf would vote and the membership would only be removed if there was a 2/3rds majority. With the proposal, (now passed), the board may, on a majority vote, remove the status and membership of a fellow in response to large code of conduct violations.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">There are some stated reasons behind this change: a strong one is the unclear and possibly significant legal risk of allowing a Fellow to retain the title and membership to the organization, especially when they use their association with the community for personal gain in problematic fashion. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">But there’s probably some other things at work. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">The Python Community is large. Like, really really large. Python is one of the most popular languages in the world. It’s more than 30 years old. There are huge conferences everywhere, and massive online forms. And, again, we’re more than 30 years old. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">There is a long history to this language, and this community, and there are almost certainly incidents that deserve a stronger action than they received, however the ability to act is not something that is overly clear. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Prior to Bylaw 3, The Code of Conduct workgroup had relatively few possible responses to misconduct beyond actions of barring the presence of someone at a PyCon or being very public about an issue. And there was a strong lack of an ability to act in a fashion that didn’t drum up a major controversy, thrusting a victim into a spotlight which could do more harm than good. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I don’t know if addressing historic problems is a motivation, or preventing future and unexpected, silent ‘our hands are tied’ reactions is the motivation, but undoubtedly, it’s impossible for a community this large to not have reason to address issues which had been seen, and or had been heard of, but  are issues which, for some number of reasons, were issues which had to be set aside for the time. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Bylaw change 3 has passed, and passed with 80% of responders voting in favor. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">The PSF Board is now able to remove the fellowship status of an individual in the Python community if they have a Code of Conduct violation. </p>
+<p class="paragraph-Text_20_body"> </p>
+<h4 class="paragraph-P4">Now some important notes from my point of view:</h4>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">A fellow is usually someone the community strongly loves. To remove a fellow is going to cause a lot of attention and divide. As a result, I highly doubt the title will be removed for simply enjoying an old SNL skit, as it was equated to in the thread regarding the good or bad of bylaw change 3. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">It is an action to be taken only for a major Code of Conduct violation.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">There are some violations that justify legal action, but due to a number of reasons a victim may not want or be able to go that route due to the elongation of their distress in a legal case. There are other violations where maintaining connections with the fellow damages the community to a legal risk level. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Whether or not violations of this nature are in Python’s history is not something I know. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">And my lack of knowledge regarding the motivation for bylaw change 3 makes it much easier to write this piece as I do not have to skirt around an issue I have knowledge of, to ensure I do not say anything regarding privileged knowledge. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Having prior knowledge may have tied the hands of some folks, and reduced the amount they could say. This discretion is unfortunate because it creates a weird asymmetry, but I do implore people to think about why certain people are avoiding certain parts of an overall discussion but are still very engaged in the topic overall. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">If these code of conduct violations I allude to are not in our past, we need only to look at other communities to know that they’re possible and we should plan and have the infrastructure to protect our community members in the event that they take place. </p>
+
+<p class="paragraph-Text_20_body"><br/></p>
+
+<h3 class="paragraph-P2"> On Tim Peters,</h3>
+
+<p class="paragraph-P2">This brings us to Tim Peters, and his suspension. This is where I am losing my ability to keep up with every thread, and will need to simplify things. Feel free to highlight inaccuracies or impacts of simplification, they are made in an attempt to finish this piece instead of keeping it in my forever draft folder.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">In the discussion around bylaw change 3, a few things happened.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">A Python Discourse thread took place where a very vocal group decried the bylaw change. Some members even, on the passage of the change, preemptively rescinded their fellowship status.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">One of the members who was very vocal about their objection to the change was Tim Peters. Following his actions, and in review of his behavior, the Code of Conduct Work Group advised the Steering Council to suspend Tim Peters for a period of 3 months. In the announcement of the suspension, there was a list of behaviors provided which was used to describe Tim’s actions which were in violation of the Code of Conduct of the Python Software Foundation. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Following the suspension, there was a lot of speculation as to what took place.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Tim Peters waited a long while before saying anything, and when he did he said he was not given appropriate notice about his behavior or that it would escalate to the suspension. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">There was a lot of talk demanding information throughout this.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Since then there’s been many comments, posts, and more around all of this. Even gaining some attention in some news articles and outside forums.</p>
+<p class="paragraph-Text_20_body"> </p>
+<h2 class="paragraph-P4">My Thoughts</h2>
+
+<p class="paragraph-P2">I’ve already injected my thoughts throughout this, but this is the section I want to say very strongly. I’ve over simplified a lot,  but that was in an effort to get to this point. I’m going to respond to a lot of comments I’ve seen, and I’m going to fail to cite them. I’m sorry for that.</p>
+<p class="paragraph-Text_20_body"> </p>
+<h3 class="paragraph-P2">Bylaw change 3</h3>
+
+<p class="paragraph-P2">This is a big deal. It’s incredibly important to be able to take care of the community, and to prepare for legal risks. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">The amount the bylaw change passed by shows that there’s a strong desire in the community to have effective code of conduct violation enforcement regardless of an individual's status in our community. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">But, it’s probably unrealistic to assume that an action on the tier of fellowship removal will be taken for small things. It isn’t frivolous and characterizing it as a frivolous action is probably actively being disingenuous. Additionally, if possible I’d bet there will be prior steps taken to address the issue and it will only be done in the most extreme circumstances after all other options have been exhausted. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Sure it’s fair to say I’m being speculative here and maybe wishing for reason-ability when there is not a mechanism to ensure it. But in order to enact this, it would need to be the conclusion of the CoC workgroup, AND need to convince a PSF board comprised of our community members, who we elect. That election process sure feels like a methodology for ensuring reasonability to me.  And honestly after having watched the threads on DPO, I would have temporarily banned more users than has taken place so I don’t think it’s very realistic to say they’re trigger happy. </p>
+<p class="paragraph-Text_20_body"> </p>
+<h3 class="paragraph-P2"> Tim Peters Suspension</h3>
+<p class="paragraph-Text_20_body"> </p>
+<h4 class="paragraph-P2"> Prior Contact</h4>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I find it doubtful that a Code of Conduct group, hot on the heels of a major controversy about bylaw change 3, would not try to use soft skills to quell the behavior of some users in the Discourse Thread. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Having moderated before, soft skills are one of the most important skills to help massage what could be a flame war and instead direct it into a moment of mutual understanding. Guiding away from bombastic attacks of people's characters to more tactile subjects is the most helpful tool in any moderator's tool belt. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">It’s also almost always unnoticed. It doesn’t feel like moderation. Simply replying to a comment that got too close to a personal attack, with a reframing of their emotion, by asking for clarification about what wording in a document upsets them IS moderation, and is incredibly effective. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">So it’s possible Tim feels there wasn’t anything done, when in fact there were actions taken that were just missed. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">That is what escalation is for. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Additionally, I don’t know if there was a prior history with Tim. Pulling from reddit, my response to a new user’s actions in a flame war may be different than my response to a user I’ve previously moderated. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Sometimes if I have established expectations of behavior, and established what is not allowable, that means that my next option the next time around has to be larger. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">So perhaps this 3 month suspension came with no prior contact–in this thread itself. But if that’s the case, then perhaps there were prior efforts made to establish what is reasonable behavior. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">But, honestly, there is something else incredibly important to say here:</p>
+<p class="paragraph-Text_20_body"> </p>
+<h4 class="paragraph-P2"> Admonishment is not Damnation</h4>
+
+<p class="paragraph-P2">There are a few important takeaways I want to have in this. This is one of them. Having been actioned by moderation is not saying that there is nothing good or of value to the moderated person. Nor is it saying how dare anyone support the moderated person. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">It’s just that the continued actions have had a negative impact, and after reviewing the moderators options this was the course of action they found best suited to try to reduce negative impact on others.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">The suspension was only 3 months, and I assume took place as an escalation after prior attempts to curtail behaviors. But because it was only 3 months I’m confident that it was only because his behavior had a negative impact and he doubled down on it. I don’t think it’s because something he did is something that the Code of Conduct work group considers damnable. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Given my fortunately limited knowledge, I really don’t think there are parties present that have a reason to think the situation is more serious than, “people raised valid issues with the behavior here, we asked that the behavior cease, it didn’t, and now we need to escalate to a level which is strong enough to encourage a change in behavior to protect individuals in our community.” </p>
+<p class="paragraph-Text_20_body"> </p>
+<h4 class="paragraph-P2"> And You, Dear Audience, Aren’t Entitled to Know the Details</h4>
+
+<p class="paragraph-P2">You’re not. I’m not.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">You honestly shouldn’t even be allowed to know who was suspended. But this is such a small group that this aspect is impossible to enforce. In its absence, no details should be shared with you. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">My opinion of the matter is that only the moderated person, the CoC Workgroup and the Steering Council should know. No one else. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">And there’s two reasons for this, the first is obvious: if there is a victim, they need to be protected. And details may put them into the spotlight. And they don’t deserve that, it is of the utmost importance to protect them.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">But the second reason is one I haven’t seen anyone mention:</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P4">The moderated person deserves to be protected. </p>
+
+<p class="paragraph-P2">We are human. </p>
+
+<p class="paragraph-P2">We are allowed to be wrong. It’s ok to make mistakes.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">And when that moderation action is made public, and you connect the actions to Who They Are, you are tying the moderated person to their action and you’re not letting them grow past it. You’ve thrust them into public focus and forced them to either publicly double down, or publicly and (very suddenly) loudly proclaim their ‘wrong doings’. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">You’re not entitled to know who was suspended, and you’re not entitled to any light shed on the matter.</p>
+
+<p class="paragraph-Text_20_body"/>
+
+<p class="paragraph-P2">If there is an issue, call for an audit of the action. If the moderated person feels like it, they’re welcome to say what they felt publicly. But you, as an unrelated spectator, are not entitled to make that decision for them. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I understand the desire for transparency, but you’re not asking for transparency, you’re asking for a collective public focus with a person, not the wording of some bylaw, at the center of that focus. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">We all mess up, and while this situation grew very publicly, you’re not the one who gets to ask for all the information. If there’s a victim, they deserve protection, and the moderated person deserves the grace to not have a moment of a mistake tied to their entire identity. </p>
+<p class="paragraph-Text_20_body"> </p>
+<h4 class="paragraph-P2"> It’s ok to want to defend your friend</h4>
+
+<p class="paragraph-P2">This is where I think a majority of the drama actually stems from, and why I so strongly want to emphasize that admonishment is not damnation. I talked about bylaw change 3 and its possible motivations. I doubt Tim Peters is the motivation for the bylaw change, especially given that he only received a 3 month suspension. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Tim’s behavior in the forum simply was unprofessional, and that is the extent of it. In an attempt to uphold the Code of Conduct, an action was taken in response to the information that the CoC WG had at hand, and then they brought the information to the Steering Council with their advice. The information and action was compelling enough for the Steering Council to agree to the suggested action. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Wanting to defend your friend makes sense. But no acting body in this process has said Tim Peters is evil. Just that his actions throughout the forum post had a negative impact and violated the code of conduct, and there are consequences to such behavior. But the consequence is just, “Take a break and breathe.” </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Similarly it makes sense that Tim was emotional in the post itself, whether founded or not, I’m sure he saw the bylaw change as a possible attack on his friends. I think that’s probably unfounded, however it makes complete sense to feel that way and to want to vigorously defend them. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">But in the process of his defense, his behavior crossed a line and that has a consequence. He is an adult, and can own his actions. DPO is the official Python forum. And that means that the actions of individuals in the community which are made there, are actions which should be judged as professional, and worthy of stewarding our community. If it’s a higher standard there than on a blog, then that’s ok. DPO is, in every sense, about as official as Python discussions get. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Defending your friend is great, but there is not a party saying he’s the worst. Just that his actions had an impact on others, and as a result a moderation decision was made in favor of suspension of one individual rather than making the DPO, and greater Python space exclusionary to some of our community. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">So, please temper your defense. No one is trying to kick him out. Some of us just have had people quietly tell us that some of the impact of some comments was that they aren’t welcome here. And in an effort to ensure our community is welcome to everyone, we have to judge and adapt our behavior.  </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-Text_20_body"><br/><br/></p>
+<h3 class="paragraph-P2"> DPO, the Code of Conduct Work Group, and the Steering council</h3>
+
+
+<h4 class="paragraph-P2"> Regarding DPO:</h4>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">One of the repeating comments I saw was an accusation that the DPO moderators were manipulating conversations. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I find it to be a silly notion, and emotionally charged at that, although I understand the origin of the emotion. We care about the stewardship of the community which we love and that  fosters emotion, and motivates us. </p>
+
+<p class="paragraph-P5"><span class="text-T1"><br/>A suggestion made was to copy everything and create a ‘backup’ to prove manipulation. </span></p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Having moderated on Reddit, and stepped down when the changes to their api mean a basic user couldn’t do exactly the above, I honestly kind of encourage creating backups. If there’s manipulation, this is helpful to identify it. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">But, I need to express that removing baiting posts is not manipulation. And reviving moderated comments or threads is not fighting manipulation. If there’s a series of manipulations, catalog it, and see if it’s actually a trend of manipulation, or if it’s just moderators preventing flame wars from appearing. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Almost every community will remove baiting topics. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">IDE wars are a pointless topic, and often only creates attacks on people, and as a result many communities don’t allow it to continue. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Similarly, during times of drama, certain topics will be removed as they only serve to invite enraged replies. Even if the post itself seems benign, moderators, who have watched the forum more closely than you likely have, know the trend. And as a result often choose to remove some topics in the interest of stopping a problem before it starts. At another point in time the topic will probably be allowed again. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">This is not malicious manipulation, this is trying to protect the userbase from opportunities for personal attacks. Sometimes people need to cool off before they talk about a topic. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Let the moderators do their jobs. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Your archive is fine. Use it to notice a trend or pattern, and then report on it responsibly. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Don’t use it to continue a conversation that needs to end to allow time for emotions to relax. You’re not fighting the system, you're encouraging more and more emotional statements that grow to be divisive and personal, and escape the realm of productive conversations. Trust your community. And trust that actions are taken to foster good in the space you cowork in. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">The elongated discussion on this topic has hurt many feelings, and caused division between friends. If it could cool off for a while instead of constantly being stoked back up, I’m sure many users would take time to empathize with one another. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I hope people can understand the defense of Tim, and I hope they can understand the discomfort some of his comments caused which prompted moderation. Words have impacts. And we’re programmers, we should be very familiar with that–a couple of keystrokes can change a lot. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">You know your fellow developers want the best for this language. Python is just a very large project now, and the words impact people and have a reach they have never had before. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Being emotionally invested and talking about a concept with passion is fine. But don’t attack people. That line shouldn’t be crossed, let alone in a professional space like DPO. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Also, you need to accept the moderation actions of the DPO Mods. They need to be able to  remove more posts and comments, and make permanent bans from the platform without the CoC WG reviewing everything first, causing delay. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">You can always appeal a ban. But sometimes a stopgap is necessary to prevent a heated conversation from boiling over, and sometimes something needs to be removed until there’s time for a moderator to have an in depth review of the situation. There’s a need for pause buttons for humans to breathe, and collect themselves. </p>
+
+<p class="paragraph-Text_20_body"/>
+
+<p class="paragraph-P2">Even Moderators need to take a breather to cool off, and it can’t come at the cost of the community being subject to personal attacks while the moderator takes care of their mental health. Bans are not damnation either.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Sometimes that action will be overturned, but in times of turmoil, many forums will have automated protection settings which the modteam will set more aggressively because of the propensity for turmoil, and the increased need, but lack of supply, for more moderator oversight. So some bans or removals will not be even reflective of anything from the moderation team past the post or user in question hit a hot topic action and automated processes took place to remove it.</p>
+
+<p class="paragraph-Text_20_body"><br/></p>
+
+<p class="paragraph-P2">If you’re particularly upset by something, either raise the issue with the Steering Council, or the Code of Conduct workgroup. If it’s something neither group oversees, or you’re uncomfortable with either group, perhaps seek another group you trust to bring it to or your personal blog as a space to talk about a topic. Just because a topic isn’t fit for DPO, doesn’t mean you’re never allowed to speak a breath of it. Just that for some moderation reason, it doesn’t fit into the forum at present time. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Please consider that there’s a human at the other end of moderation, and they need to be able to step away, and care for themselves. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Because of the need to care for themselves, and for the space as a whole, if the moderation action is met with evasion in other platforms, such as the mailing list and issue trackers, then the impact of that ban needs to reach the mailing lists and github issues as well. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">These are all Python spaces governed by the Python Code of Conduct, evasion and abuse of tools in the ecosystem justify an escalation in privilege revocation. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Certain, repetitive, needling actions have a cumulative effect, and if a user, including Guido himself, isn’t backing off and is encouraging division, then the DPO mods should be well within their right to remove that user from their contributions. An appeal can always be made, but a user's actions made to create a divide are not productive to the community as a whole. </p>
+<p class="paragraph-Text_20_body"> </p>
+<h4 class="paragraph-P2">### Code of Conduct Workgroup</h4>
+
+<p class="paragraph-P2">Frankly, I think they’re probably doing a good job. I know there’s lots of division, however having been in a moderation role I’ve seen instances where I needed to act but couldn’t offer a full perspective. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I trust the team, and I also notice some absences of comments. There’s a lack of mention of impact to the actions regarding Tim Peter’s suspension, and I highly doubt that no one felt an impact of exclusion by his comments. I trust he and others had no intention of exclusion, however, I have heard of uncomfortably similar comment’s impact. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">And I didn’t hear about it because I am anybody that anyone in this community knows. I heard about it just as a random person (plausibly because I was a random person). That tells me that there’s probably a larger impact that’s going unaddressed, and this reaction makes it harder to address. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I think, given the limited knowledge I have, and the small things I see omitted in conversations, the CoC workgroup is probably doing a very measured job.</p>
+<p class="paragraph-Text_20_body"> </p>
+<h4 class="paragraph-P2"> The Steering Council</h4>
+
+<p class="paragraph-P2">I think they did a good job navigating all of this. In the face of the evidence by the code of conduct work group, they listened and chose to take their advice. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">That’s not easy, and it’s less easy when the person in question is someone with the legacy of Tim Peters. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">My one suggestion for future issues is that the Steering Council refrain from any ‘justification’ of their actions. This seems like an imbalance of ethics, however, the motivation is for situations where they have privileged information that cannot be made public given the need to protect individuals. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">In the effort to justify action, while withholding some core justifications, you end up with something akin to what happened in this situation: justifications that feel like they fall short of a measured response when viewed in light of the action taken. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">If there is a need to justify action, explicit comments explaining attempts at prior remedies may be necessary. Though if I’m honest, I don’t think that anyone is entitled to that. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">The willingness to be audited is important, and justifies silent action in my opinion. Moderators make mistakes, but some major actions which will be very public, likely have a long internal thread about actions necessary to take. And even if the action is taken quickly without a long discussion, I do trust that it will be made with solid motivation or be something the team is willing to overturn in light of the increased clarity that time for reflection offers. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P6"> </p>
+<p class="paragraph-Text_20_body"> </p>
+<h2 class="paragraph-P2"> This has impacted others</h2>
+
+<p class="paragraph-P2">That’s why this matters to me. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">The C Python Core Team is filled with many wonderful people. That said, for one reason or another, there is some form of sampling bias. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Look at the distribution of people involved in Python Meetups, PyLadies Meetups, Black Python Devs, PyData, Meetups, Conferences, and other related communities over the past 5 years. Then look at the distribution of new core team members over the past 5 years. </p>
+
+<p class="paragraph-P5"><span class="text-T1"><br/>I don’t feel like they are reflective, nor that they’re strictly drawn from the same pool. For some reason or another, there is a sampling bias that is making it so we’re not nurturing core team members from the pool of Python Programmers who are actively furthering the community. </span></p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">There isn’t a single core team member who I think is unfit for the job. That said, I think there are many possible core team members who are being left in a position where they’re not being welcomed or nurtured. </p>
+
+<p class="paragraph-Text_20_body"><br/></p>
+
+<p class="paragraph-P2">At one point I read a comment that said that until the suspension, no one outside of a small circle knew about the drama. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I can promise you that was not the case. I am not currently a part of the DPO community in much of a capacity. I was a part of the Python subreddit, and am now a part of the Python Discord community. I’ve also had a chance to have some conversations with people in person and gotten feedback from those folks who aren’t in either digital space while I attended a conference. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I have heard that the github issues, DPO, and some other spaces (including those I’ve had a leadership role in) are places where some individuals don’t feel welcome. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I’m not the only one who has heard this, and I’m sure the CoC workgroup has heard some of this too. There’s probably a reason some language, phrases, and jokes are things that folks have asked others to not post on DPO. Some of the quiet complaints I’ve heard are very specific. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">If your takeaway is that “Python just isn’t fun anymore”, I’m sorry. I grew up being able to make lots of jokes with friends without relying on “Locker room” jokes. I think I had a lot of fun. I think Python is still fun. But I’m also able to talk about professional decisions without needed to inject unprofessional topics. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">I know I also made jokes, which given the perspective of time and growth, I wish I hadn’t. But that’s growth and that’s a good thing.</p>
+
+<p class="paragraph-Text_20_body"/>
+
+<h3 class="paragraph-P2">To Tim: </h3>
+
+<p class="paragraph-P2">I understand that you helped grow this from about the ground up. Your work is great and so much of it is something that I don’t have the ability to trace and follow the logic of. It’s amazing. And you helped grow Python into the wonderful thing it is today. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">But as the home of the Python community grew, some walls were moved, some things changed, and more space was added to accommodate more and more people. And in some of the construction, the corner you settled in and made your own may have become a corner that blocked the entryway for some folks. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">There’s still lots of room, plenty of room for jokes and fun. But because some folks have been repeatedly excluded, it’s worth shuffling around a little and making some more room. It’s amazing that over the years there isn’t much dust collecting in the house of Python. And needing to shuffle to accommodate more should be celebrated instead of resisted. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">And it does matter a lot to some folks. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">There are few worse feelings than talking to someone and encouraging their involvement in the Python Community, and having them stare you in the eye and tell you they’re not welcome here. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">It is impacting people. And while I can’t trace the logic and code you’ve written I know some of them can, and I want to see them grow Python to be even more amazing. I don’t know if you’ve been told that it does have an impact, and it’s not just a hypothetical. So let me tell you it has had an impact and I have heard people tell me that they aren’t welcome in the core team community.</p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Thankfully I have heard that feedback relatively few times, but I have heard it multiple times and relatively recently. For at least one of my instances it relied on the fact that I was just kind of there, and happened to catch people at a stray time and struck up a stray conversation with folks I didn’t know, and who didn’t know me. It was random luck. And if that random luck gave me that sample, it’s safe to say the pool the sample was drawn from is larger.  </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">Others were online, and may have been more nuanced than the conversations that have motivated me for the past while. Regardless, this is not isolated from my perspective, and there are people who do feel excluded by some behaviors in our community. </p>
+<p class="paragraph-Text_20_body"> </p>
+<p class="paragraph-P2">So while I understand your motivations to defend friends, I do hope you’ll understand that I, as someone who at the time was relatively a nobody for some of the conversation at hand, have heard of the impact of some of the behaviors similar to those central to the recent discussion. </p>
+
+<p class="paragraph-Text_20_body"><br/><br/><br/></p>
+
+</body>
+</html>
